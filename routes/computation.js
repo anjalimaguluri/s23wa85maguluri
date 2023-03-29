@@ -8,17 +8,17 @@ var router = express.Router();
 
 router.get('/', function(req, res, next) {
 
-    var m1=(Math.random())
+    var m1=Math.random()
 
-    var m2=(Math.random())
+    var m2=Math.random()
 
-    var m3=(Math.random())
+    var m3=Math.random()
 
-    var cosFunction=Math.cos()
+    var cosFunction=Math.cos(m1)
 
-    var sinFunction=Math.asin(m2)
+    var sinFunction=Math.sin(m2)
 
-    var sinhFunction=Math.asinh(m3)
+    var sinhFunction=Math.sinh(m3)
 
 
 
@@ -38,8 +38,7 @@ router.get('/', function(req, res, next) {
         
         o:sinFunction,
 
-        p:sinhFunction
-
+        p:sinhFunction,
 
     });
 
